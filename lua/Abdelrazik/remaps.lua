@@ -1,6 +1,7 @@
 vim.keymap.set('n', '<C-d>', '<C-d>zz', { desc = 'go down half a page' })
 vim.keymap.set('n', '<C-u>', '<C-u>zz', { desc = 'go up half a page' })
 
+vim.keymap.set('n', '<leader>e', vim.cmd.Ex, { desc = 'Exit the document but stay in neovim' })
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex, { desc = 'Exit the document but stay in neovim' })
 
 vim.keymap.set('n', '<leader>y', '"+Y')
